@@ -5,11 +5,19 @@ labels: ["copilot-request"]
 
 body:
   - type: input
+    id: github_user_boss
+    attributes:
+      label: GitHub-användares-chef
+      description: Ange din chefs e-postadress
+      placeholder: namn@skogforsk.se
+    validations:
+      required: true
+  - type: input
     id: github_username
     attributes:
       label: GitHub-användarnamn
-      description: Ange ditt GitHub-användarnamn (t.ex. edddan)
-      placeholder: edddan
+      description: Ange ditt GitHub-användarnamn (t.ex. aikidokan)
+      placeholder: aikidokan
     validations:
       required: true
 
