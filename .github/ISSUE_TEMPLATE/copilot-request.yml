@@ -39,6 +39,7 @@ body:
       options:
         - Ja
         - Nej
+      default: 1
     validations:
       required: true
 
