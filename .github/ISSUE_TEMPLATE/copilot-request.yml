@@ -7,7 +7,7 @@ body:
   - type: input
     id: github_user_boss
     attributes:
-      label: GitHub-användares-chef
+      label: Din chefs e-postadress
       description: Ange din chefs e-postadress
       placeholder: namn@skogforsk.se
     validations:
@@ -24,17 +24,27 @@ body:
   - type: input
     id: work_email
     attributes:
-      label: Arbets-e-post
-      description: Ange din arbetsadress (för verifiering)
+      label: Skogforsk e-postadress
+      description: Ange din Skogforsk e-postadress (för verifiering)
       placeholder: namn@skogforsk.se
     validations:
       required: true
+
+  - type: checkboxes
+    id: prior-experience
+    attributes:
+      label: Tidigare erfarenhet
+      description: Har du tidigare erfarenhet av att använda GitHub Copilot?
+      options:
+        - label: Ja
+        - label: Nej
+          required: true
 
   - type: textarea
     id: purpose
     attributes:
       label: Syfte
-      description: Kort beskrivning av hur du kommer använda Copilot
+      description: Kort beskrivning av hur du kommer använda Copilot och vad du ser för möjligheter med det i ditt arbete.
       placeholder: T.ex. utveckling i .NET, Python, Azure automation...
     validations:
-      required: false
+      required: true
