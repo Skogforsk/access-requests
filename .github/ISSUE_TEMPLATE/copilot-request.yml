@@ -1,0 +1,32 @@
+name: GitHub Copilot - ansökan
+description: Ansök om tillgång till GitHub Copilot
+title: "[Copilot] ansökan - <ditt namn>"
+labels: ["copilot-request"]
+
+body:
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub-användarnamn
+      description: Ange ditt GitHub-användarnamn (t.ex. edddan)
+      placeholder: edddan
+    validations:
+      required: true
+
+  - type: input
+    id: work_email
+    attributes:
+      label: Arbets-e-post
+      description: Ange din arbetsadress (för verifiering)
+      placeholder: namn@skogforsk.se
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Syfte
+      description: Kort beskrivning av hur du kommer använda Copilot
+      placeholder: T.ex. utveckling i .NET, Python, Azure automation...
+    validations:
+      required: false
