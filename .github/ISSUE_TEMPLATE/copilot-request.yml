@@ -2,7 +2,8 @@ name: GitHub Copilot - ansökan
 description: Ansök om tillgång till GitHub Copilot
 title: "[Copilot] ansökan - <ditt namn>"
 labels: ["copilot-request"]
-
+assignees:
+  - aikidokan
 body:
   - type: input
     id: github_user_boss
@@ -46,5 +47,6 @@ body:
       label: Syfte
       description: Kort beskrivning av hur du kommer använda Copilot och vad du ser för möjligheter med det i ditt arbete.
       placeholder: T.ex. utveckling i .NET, Python, Azure automation...
+      render: text
     validations:
       required: true
