@@ -31,15 +31,16 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: prior-experience
     attributes:
       label: Tidigare erfarenhet
       description: Har du tidigare erfarenhet av att använda GitHub Copilot?
       options:
-        - label: Ja
-        - label: Nej
-          required: true
+        - Ja
+        - Nej
+    validations:
+      required: true
 
   - type: textarea
     id: purpose
