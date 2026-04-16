@@ -1,6 +1,7 @@
 # Access Requests - GitHub Copilot
 
 Detta repository används för att hantera ansökningar om GitHub Copilot-licenser inom Skogforsk.
+En förutsättning är att du har ett github konto när du ansöker.
 
 ## Så här ansöker du
 
