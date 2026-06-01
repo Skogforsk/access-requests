@@ -2,6 +2,8 @@ Hej,
 
 För att få tillgång till GitHub Copilot behöver du göra en ansökan via vårt GitHub-formulär:
 
+Observera att du måste ha ett github konto innan du ansöker, har du inget sen tidigare kan du skapa ett nytt.
+
 https://github.com/skogforsk/access-requests/issues/new/choose
 
 Välj “GitHub Copilot - ansökan” och fyll i:
