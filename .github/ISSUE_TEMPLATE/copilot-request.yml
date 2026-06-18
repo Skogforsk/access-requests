@@ -17,7 +17,7 @@ body:
     id: github_username
     attributes:
       label: GitHub-användarnamn
-      description: Ange ditt GitHub-användarnamn (t.ex. aikidokan)
+      description: Ange ditt GitHub-användarnamn. Detta används för kopplingen till din Entra-post och Copilot-seat (t.ex. aikidokan)
       placeholder: aikidokan
     validations:
       required: true
@@ -26,10 +26,20 @@ body:
     id: work_email
     attributes:
       label: Skogforsk e-postadress
-      description: Ange din Skogforsk e-postadress (för verifiering)
+      description: Ange din Skogforsk e-postadress. Detta är nyckeln vi använder för att hitta rätt Entra-användare och sätta Copilot-attributen.
       placeholder: namn@skogforsk.se
     validations:
       required: true
+
+  - type: textarea
+    id: entra_mapping_note
+    attributes:
+      label: Notering för Entra-koppling
+      description: Om din GitHub-identitet inte matchar din Skogforsk-e-post direkt, skriv kort hur du brukar kallas internt så att rätt Entra-användare kan mappas.
+      placeholder: T.ex. "GitHub: aikidokan, Skogforsk-identitet: Patrick Livbom"
+      render: text
+    validations:
+      required: false
 
   - type: dropdown
     id: prior-experience

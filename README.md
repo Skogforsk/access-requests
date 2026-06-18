@@ -29,6 +29,25 @@ Efter inskickat ärende:
 - Du kan bli ombedd att bekräfta via din arbets-e-post
 - Licens tilldelas efter godkännande
 
+## Aktuell status
+
+- Entra custom security attributes är införda för Copilot-spårning.
+- Attributset: `SkogforskCopilot`
+- Attribut:
+   - `copilotSeat` (true/false)
+   - `githubUsername`
+   - `copilotStatus` (`pending`, `active`, `removed`)
+- Nuvarande användare med seat är backfyllda och markerade som `active`.
+
+## Nästa steg
+
+Vi går vidare med att förbättra issue-flödet i GitHub så att godkända ärenden enklare kan driva uppdatering av Entra-attribut (mindre manuell hantering).
+
+Målbild:
+- ett tydligt onboardingsflöde från issue → verifiering → seat → Entra-attribut
+- bättre spårbarhet i ärenden
+- enklare uttag av rätt målgrupp för Copilot-kommunikation
+
 ## Kontakt
 
 Vid frågor: patrick.livbom@skogforsk.se
