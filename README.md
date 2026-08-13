@@ -1,5 +1,7 @@
 # Access Requests - GitHub Copilot
 
+*[Read this in English](#for-english-speaking-employees)*
+
 Detta repository används för att hantera ansökningar om GitHub Copilot-licenser inom Skogforsk.
 En förutsättning är att du har ett github konto när du ansöker.
 
@@ -51,3 +53,21 @@ Målbild:
 ## Kontakt
 
 Vid frågor: patrick.livbom@skogforsk.se
+
+---
+
+## For English-speaking employees
+
+
+**How to apply:**
+
+A prerequisite is that you have a GitHub account when you apply.
+
+1. Confirm with your manager that you're allowed to apply for a license.
+2. Open a new issue: https://github.com/skogforsk/access-requests/issues/new/choose
+3. Select the **"GitHub Copilot - ansökan"** form.
+4. Fill in your manager's email, your GitHub username, your work email, and (optionally) your intended use case.
+
+After submitting, we verify the information and may ask you to confirm via your work email before the license is assigned.
+
+Questions: patrick.livbom@skogforsk.se

@@ -1,6 +1,6 @@
 name: GitHub Copilot - ansökan
 description: Ansök om tillgång till GitHub Copilot
-title: "[Copilot] ansökan - <ditt namn>"
+title: "Copilot ansökan - [ditt namn]"
 labels: ["copilot-request"]
 assignees:
   - aikidokan
