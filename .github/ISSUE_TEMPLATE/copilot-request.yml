@@ -36,7 +36,7 @@ body:
     attributes:
       label: Notering för Entra-koppling
       description: Om din GitHub-identitet inte matchar din Skogforsk-e-post direkt, skriv kort hur du brukar kallas internt så att rätt Entra-användare kan mappas.
-      placeholder: T.ex. "GitHub: aikidokan, Skogforsk-identitet: Patrick Livbom"
+      placeholder: 'T.ex. "GitHub: aikidokan, Skogforsk-identitet: Patrick Livbom"'
       render: text
     validations:
       required: false
